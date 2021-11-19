@@ -8,20 +8,8 @@
 let kmPercorrere = parseInt(prompt('Inserire il numero di km che si vogliono percorrere'));
 console.log('Numero di km che si vogliono percorrere:', kmPercorrere);
 
-if (isNaN(+kmPercorso)) {
-    alert('Accepted')
-} else {
-    alert('Denied')
-}
-
 let etaPasseggero = parseInt(prompt('Inserisci inserire età'));
 console.log('Età:', etaPasseggero);
-
-if (isNaN(+etaPasseggero)) {
-    alert('Accepted')
-} else {
-    alert('Denied')
-}
 
 let prezzoBiglietto = (0.21 * kmPercorrere).toFixed(2);
 // console.log('Prezzo del biglietto:', prezzoBiglietto);
